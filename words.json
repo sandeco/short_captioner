@@ -1,0 +1,638 @@
+[
+    {
+      "word": "Eu",
+      "start": 0,
+      "end": 0.42,
+      "confidence": 0.81005859375
+    },
+    {
+      "word": "não",
+      "start": 0.42,
+      "end": 0.52,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "sei",
+      "start": 0.52,
+      "end": 0.66,
+      "confidence": 0.99755859375
+    },
+    {
+      "word": "se",
+      "start": 0.66,
+      "end": 0.76,
+      "confidence": 0.9970703125
+    },
+    {
+      "word": "você",
+      "start": 0.76,
+      "end": 0.96,
+      "confidence": 0.990234375
+    },
+    {
+      "word": "sabe,",
+      "start": 0.96,
+      "end": 1.34,
+      "confidence": 0.9990234375
+    },
+    {
+      "word": "mas",
+      "start": 1.5,
+      "end": 1.66,
+      "confidence": 0.998046875
+    },
+    {
+      "word": "os",
+      "start": 1.66,
+      "end": 1.84,
+      "confidence": 0.9794921875
+    },
+    {
+      "word": "agentes",
+      "start": 1.84,
+      "end": 2.2,
+      "confidence": 0.9443359375
+    },
+    {
+      "word": "de",
+      "start": 2.2,
+      "end": 2.36,
+      "confidence": 0.99462890625
+    },
+    {
+      "word": "ar",
+      "start": 2.36,
+      "end": 2.54,
+      "confidence": 0.71044921875
+    },
+    {
+      "word": "podem",
+      "start": 2.54,
+      "end": 2.92,
+      "confidence": 0.994140625
+    },
+    {
+      "word": "funcionar",
+      "start": 2.92,
+      "end": 3.54,
+      "confidence": 0.99951171875
+    },
+    {
+      "word": "como",
+      "start": 3.54,
+      "end": 3.82,
+      "confidence": 0.9990234375
+    },
+    {
+      "word": "um",
+      "start": 3.82,
+      "end": 3.94,
+      "confidence": 0.95263671875
+    },
+    {
+      "word": "enxame",
+      "start": 3.94,
+      "end": 4.46,
+      "confidence": 0.9988606770833334
+    },
+    {
+      "word": "de",
+      "start": 4.46,
+      "end": 4.72,
+      "confidence": 1
+    },
+    {
+      "word": "abelhas.",
+      "start": 4.72,
+      "end": 5.5,
+      "confidence": 0.99951171875
+    },
+    {
+      "word": "Você",
+      "start": 5.8,
+      "end": 6.1,
+      "confidence": 0.9990234375
+    },
+    {
+      "word": "pode",
+      "start": 6.1,
+      "end": 6.38,
+      "confidence": 1
+    },
+    {
+      "word": "ter",
+      "start": 6.38,
+      "end": 6.6,
+      "confidence": 1
+    },
+    {
+      "word": "vários",
+      "start": 6.6,
+      "end": 7,
+      "confidence": 0.99951171875
+    },
+    {
+      "word": "agentes",
+      "start": 7,
+      "end": 7.48,
+      "confidence": 0.999755859375
+    },
+    {
+      "word": "com",
+      "start": 7.48,
+      "end": 7.94,
+      "confidence": 0.99658203125
+    },
+    {
+      "word": "o",
+      "start": 7.94,
+      "end": 8.08,
+      "confidence": 1
+    },
+    {
+      "word": "mesmo",
+      "start": 8.08,
+      "end": 8.34,
+      "confidence": 1
+    },
+    {
+      "word": "papel",
+      "start": 8.34,
+      "end": 8.78,
+      "confidence": 1
+    },
+    {
+      "word": "e",
+      "start": 8.78,
+      "end": 9.08,
+      "confidence": 1
+    },
+    {
+      "word": "com",
+      "start": 9.08,
+      "end": 9.22,
+      "confidence": 0.9990234375
+    },
+    {
+      "word": "o",
+      "start": 9.22,
+      "end": 9.4,
+      "confidence": 1
+    },
+    {
+      "word": "mesmo",
+      "start": 9.4,
+      "end": 9.6,
+      "confidence": 1
+    },
+    {
+      "word": "objetivo,",
+      "start": 9.6,
+      "end": 10,
+      "confidence": 0.99951171875
+    },
+    {
+      "word": "como,",
+      "start": 10.2,
+      "end": 10.36,
+      "confidence": 0.99951171875
+    },
+    {
+      "word": "por",
+      "start": 10.44,
+      "end": 10.52,
+      "confidence": 1
+    },
+    {
+      "word": "exemplo,",
+      "start": 10.52,
+      "end": 10.76,
+      "confidence": 1
+    },
+    {
+      "word": "buscar",
+      "start": 10.9,
+      "end": 11.2,
+      "confidence": 0.9990234375
+    },
+    {
+      "word": "informações",
+      "start": 11.2,
+      "end": 11.72,
+      "confidence": 0.99951171875
+    },
+    {
+      "word": "na",
+      "start": 11.72,
+      "end": 12.04,
+      "confidence": 0.9833984375
+    },
+    {
+      "word": "web.",
+      "start": 12.04,
+      "end": 12.38,
+      "confidence": 0.99365234375
+    },
+    {
+      "word": "No",
+      "start": 12.6,
+      "end": 12.74,
+      "confidence": 0.99951171875
+    },
+    {
+      "word": "final,",
+      "start": 12.74,
+      "end": 13.08,
+      "confidence": 1
+    },
+    {
+      "word": "um",
+      "start": 13.3,
+      "end": 13.38,
+      "confidence": 0.9951171875
+    },
+    {
+      "word": "outro",
+      "start": 13.38,
+      "end": 13.64,
+      "confidence": 0.99462890625
+    },
+    {
+      "word": "agente",
+      "start": 13.64,
+      "end": 14.02,
+      "confidence": 1
+    },
+    {
+      "word": "agregador",
+      "start": 14.02,
+      "end": 14.6,
+      "confidence": 0.99755859375
+    },
+    {
+      "word": "junta",
+      "start": 14.6,
+      "end": 15.06,
+      "confidence": 0.9990234375
+    },
+    {
+      "word": "todas",
+      "start": 15.06,
+      "end": 15.38,
+      "confidence": 1
+    },
+    {
+      "word": "as",
+      "start": 15.38,
+      "end": 15.58,
+      "confidence": 1
+    },
+    {
+      "word": "informações,",
+      "start": 15.58,
+      "end": 16.16,
+      "confidence": 1
+    },
+    {
+      "word": "assim",
+      "start": 16.38,
+      "end": 16.8,
+      "confidence": 1
+    },
+    {
+      "word": "como",
+      "start": 16.8,
+      "end": 17.04,
+      "confidence": 1
+    },
+    {
+      "word": "as",
+      "start": 17.04,
+      "end": 17.18,
+      "confidence": 0.99951171875
+    },
+    {
+      "word": "abelhas",
+      "start": 17.18,
+      "end": 17.68,
+      "confidence": 1
+    },
+    {
+      "word": "juntam",
+      "start": 17.68,
+      "end": 18.2,
+      "confidence": 0.999755859375
+    },
+    {
+      "word": "o",
+      "start": 18.2,
+      "end": 18.46,
+      "confidence": 0.99072265625
+    },
+    {
+      "word": "néctar",
+      "start": 18.46,
+      "end": 18.88,
+      "confidence": 0.99169921875
+    },
+    {
+      "word": "para",
+      "start": 18.88,
+      "end": 19.12,
+      "confidence": 0.99853515625
+    },
+    {
+      "word": "fazer",
+      "start": 19.12,
+      "end": 19.36,
+      "confidence": 1
+    },
+    {
+      "word": "o",
+      "start": 19.36,
+      "end": 19.48,
+      "confidence": 0.9990234375
+    },
+    {
+      "word": "mel.",
+      "start": 19.48,
+      "end": 19.66,
+      "confidence": 0.99560546875
+    },
+    {
+      "word": "É",
+      "start": 19.8,
+      "end": 20.02,
+      "confidence": 0.99853515625
+    },
+    {
+      "word": "a",
+      "start": 20.02,
+      "end": 20.28,
+      "confidence": 1
+    },
+    {
+      "word": "inteligência",
+      "start": 20.28,
+      "end": 20.82,
+      "confidence": 0.916015625
+    },
+    {
+      "word": "artificial",
+      "start": 20.82,
+      "end": 21.3,
+      "confidence": 1
+    },
+    {
+      "word": "de",
+      "start": 21.3,
+      "end": 21.96,
+      "confidence": 0.99951171875
+    },
+    {
+      "word": "enxame",
+      "start": 21.96,
+      "end": 22.58,
+      "confidence": 0.9889322916666666
+    },
+    {
+      "word": "em",
+      "start": 22.58,
+      "end": 22.92,
+      "confidence": 1
+    },
+    {
+      "word": "ação.",
+      "start": 22.92,
+      "end": 23.38,
+      "confidence": 1
+    },
+    {
+      "word": "Você",
+      "start": 23.52,
+      "end": 23.8,
+      "confidence": 0.99462890625
+    },
+    {
+      "word": "quer",
+      "start": 23.8,
+      "end": 24,
+      "confidence": 1
+    },
+    {
+      "word": "dominar",
+      "start": 24,
+      "end": 24.34,
+      "confidence": 1
+    },
+    {
+      "word": "essas",
+      "start": 24.34,
+      "end": 24.54,
+      "confidence": 0.9990234375
+    },
+    {
+      "word": "técnicas",
+      "start": 24.54,
+      "end": 25.06,
+      "confidence": 1
+    },
+    {
+      "word": "e",
+      "start": 25.06,
+      "end": 25.28,
+      "confidence": 1
+    },
+    {
+      "word": "construir",
+      "start": 25.28,
+      "end": 25.64,
+      "confidence": 0.99951171875
+    },
+    {
+      "word": "o",
+      "start": 25.64,
+      "end": 25.84,
+      "confidence": 0.85693359375
+    },
+    {
+      "word": "seu",
+      "start": 25.84,
+      "end": 25.96,
+      "confidence": 0.99853515625
+    },
+    {
+      "word": "próprio",
+      "start": 25.96,
+      "end": 26.28,
+      "confidence": 0.99951171875
+    },
+    {
+      "word": "enxame",
+      "start": 26.28,
+      "end": 26.72,
+      "confidence": 0.9998372395833334
+    },
+    {
+      "word": "de",
+      "start": 26.72,
+      "end": 26.86,
+      "confidence": 1
+    },
+    {
+      "word": "agentes?",
+      "start": 26.86,
+      "end": 27.32,
+      "confidence": 0.999755859375
+    },
+    {
+      "word": "O",
+      "start": 27.32,
+      "end": 27.62,
+      "confidence": 0.8505859375
+    },
+    {
+      "word": "guia",
+      "start": 27.62,
+      "end": 27.86,
+      "confidence": 0.9853515625
+    },
+    {
+      "word": "completo",
+      "start": 27.86,
+      "end": 28.46,
+      "confidence": 0.9990234375
+    },
+    {
+      "word": "com",
+      "start": 28.46,
+      "end": 28.76,
+      "confidence": 0.95751953125
+    },
+    {
+      "word": "essas",
+      "start": 28.76,
+      "end": 29.08,
+      "confidence": 0.99560546875
+    },
+    {
+      "word": "e",
+      "start": 29.08,
+      "end": 29.32,
+      "confidence": 0.98681640625
+    },
+    {
+      "word": "muitas",
+      "start": 29.32,
+      "end": 29.56,
+      "confidence": 0.99853515625
+    },
+    {
+      "word": "outras",
+      "start": 29.56,
+      "end": 29.88,
+      "confidence": 0.9873046875
+    },
+    {
+      "word": "analogias",
+      "start": 29.88,
+      "end": 30.78,
+      "confidence": 0.98974609375
+    },
+    {
+      "word": "práticas",
+      "start": 30.78,
+      "end": 31.58,
+      "confidence": 0.997314453125
+    },
+    {
+      "word": "estão",
+      "start": 31.58,
+      "end": 31.98,
+      "confidence": 0.8447265625
+    },
+    {
+      "word": "no",
+      "start": 31.98,
+      "end": 32.12,
+      "confidence": 1
+    },
+    {
+      "word": "meu",
+      "start": 32.12,
+      "end": 32.24,
+      "confidence": 1
+    },
+    {
+      "word": "livro",
+      "start": 32.24,
+      "end": 32.56,
+      "confidence": 1
+    },
+    {
+      "word": "Cru",
+      "start": 32.56,
+      "end": 33.06,
+      "confidence": 0.84130859375
+    },
+    {
+      "word": "AI",
+      "start": 33.06,
+      "end": 33.36,
+      "confidence": 0.474365234375
+    },
+    {
+      "word": "para",
+      "start": 33.36,
+      "end": 33.7,
+      "confidence": 0.982421875
+    },
+    {
+      "word": "iniciantes.",
+      "start": 33.7,
+      "end": 34.36,
+      "confidence": 0.855712890625
+    },
+    {
+      "word": "Garanta",
+      "start": 34.56,
+      "end": 35.06,
+      "confidence": 0.99853515625
+    },
+    {
+      "word": "já",
+      "start": 35.06,
+      "end": 35.28,
+      "confidence": 0.9970703125
+    },
+    {
+      "word": "aqui",
+      "start": 35.28,
+      "end": 35.72,
+      "confidence": 0.9580078125
+    },
+    {
+      "word": "no",
+      "start": 35.72,
+      "end": 35.84,
+      "confidence": 0.99951171875
+    },
+    {
+      "word": "link",
+      "start": 35.84,
+      "end": 36,
+      "confidence": 1
+    },
+    {
+      "word": "da",
+      "start": 36,
+      "end": 36.12,
+      "confidence": 0.96728515625
+    },
+    {
+      "word": "descrição.",
+      "start": 36.12,
+      "end": 36.36,
+      "confidence": 1
+    }
+  ]

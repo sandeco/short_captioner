@@ -1,0 +1,13 @@
+[project]
+name = "short-captioner"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.2",
+    "flask-cors>=6.0.1",
+    "moviepy>=2.2.1",
+    "pillow>=11.3.0",
+    "requests>=2.32.5",
+]

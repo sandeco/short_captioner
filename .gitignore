@@ -1,0 +1,55 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Arquivos de vídeo (muito grandes para Git)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+
+# Arquivos de áudio
+*.mp3
+*.wav
+*.aac
+*.flac
+
+# Arquivos temporários do MoviePy
+*TEMP_MPY*
+
+# Uploads e outputs (arquivos gerados)
+uploads/*.mp4
+uploads/*.avi
+uploads/*.mov
+outputs/*.mp4
+outputs/*.avi
+outputs/*.mov
+
+# Arquivos de configuração local
+.env
+.env.local
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db

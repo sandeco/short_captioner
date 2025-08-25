@@ -1,0 +1,29 @@
+/* Colar em static/css/style.css */
+
+:root {
+    --bs-primary: #38b6ff;
+    --bs-primary-rgb: 56, 182, 255;
+    --bs-body-bg: #121212;
+    --bs-body-color: #e9ecef;
+}
+.btn-primary {
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: #5cb9ff;
+    --bs-btn-hover-border-color: #5cb9ff;
+}
+.card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+}
+.form-control {
+    background-color: #2a2a2a;
+    border-color: #444;
+    color: var(--bs-body-color);
+}
+.form-control:focus {
+    background-color: #2a2a2a;
+    border-color: var(--bs-primary);
+    color: var(--bs-body-color);
+    box-shadow: 0 0 0 0.25rem rgba(var(--bs-primary-rgb), 0.25);
+}
