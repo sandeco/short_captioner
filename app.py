@@ -12,15 +12,22 @@ from ajust_caption import CaptionProcessor    # Sua classe de processamento de f
 # --- CONFIGURAÇÃO ---
 UPLOAD_FOLDER = 'uploads'
 OUTPUT_FOLDER = 'outputs'
-TRANSCRIPTION_API_URL = "http://localhost:8010/transcribe-word-parallel/"
+TRANSCRIPTION_API_URL = "http://localhost:8010/transcribe-word/"
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": ["http://localhost:5000", "http://127.0.0.1:5000"]}})
+CORS(app, resources={r"/*": {
+    "origins": ["*"],
+    "allow_credentials": True,
+    "allow_methods": ["*"],
+    "allow_headers": ["*"],
+}})
+
+
 app.config.from_mapping(
     UPLOAD_FOLDER=UPLOAD_FOLDER,
     OUTPUT_FOLDER=OUTPUT_FOLDER,
     SECRET_KEY='uma-chave-secreta-muito-forte',
-    MAX_CONTENT_LENGTH=100 * 1024 * 1024  # Limite de 100 MB
+    MAX_CONTENT_LENGTH=1000 * 1024 * 1024  # Limite de 1 GB
 )
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
@@ -34,13 +41,14 @@ def allowed_file(filename):
 @app.route('/')
 def index():
     """Serve a página principal da aplicação."""
-    return render_template('index.html')
+    return render_template('captioner.html')
 
 # ETAPA 1: Apenas faz o upload do vídeo
 @app.route('/upload', methods=['POST'])
 def upload_video():
     if 'video' not in request.files:
         return jsonify({'status': 'error', 'message': 'Nenhum arquivo enviado'}), 400
+
     file = request.files['video']
     if file.filename == '' or not allowed_file(file.filename):
         return jsonify({'status': 'error', 'message': 'Arquivo inválido ou não selecionado'}), 400
@@ -70,8 +78,9 @@ def transcribe_video():
         response.raise_for_status()
         words_data = response.json()
 
-        caption_processor = CaptionProcessor(words_per_line=4, gap_threshold=0.8)
-        _, phrases = caption_processor.process_caption_data(words_data)
+        caption_processor = CaptionProcessor(words_per_line=3, 
+                                             gap_threshold=0.8)
+        words_data, phrases = caption_processor.process_caption_data(words_data)
         
         return jsonify({'status': 'success', 'phrases': phrases})
     except Exception as e:
@@ -80,8 +89,11 @@ def transcribe_video():
 # ETAPA 3: Recebe o texto editado e renderiza o vídeo
 @app.route('/caption', methods=['POST'])
 def caption_video():
+    print("=== ENDPOINT /caption CHAMADO ===")
     data = request.get_json()
+    print(f"Dados recebidos: {data}")
     if not data or 'filename' not in data or 'phrases' not in data:
+        print("Erro: Dados incompletos")
         return jsonify({'status': 'error', 'message': 'Dados incompletos para legendagem'}), 400
 
     filename = data['filename']
@@ -95,20 +107,20 @@ def caption_video():
         output_filename = f"captioned_{uuid.uuid4().hex[:8]}_{filename}"
         output_path = os.path.join(app.config['OUTPUT_FOLDER'], output_filename)
         
-        # Instancia sua classe ShortCaptioner com a cor de destaque
+        # Instancia sua classe ShortCaptioner
         captioner = ShortCaptioner(
-            video_path="shorts-enxame.mp4",
+            video_path=video_path,
             font_path="GothamBlack.ttf",
             font_size=70,
-            font_color="white",
+            font_color="yellow",
             stroke_color="black",
             stroke_width=3,
             position=("center", "bottom"),
             margin_bottom=700
         )
         
-        # Chama o método com o parâmetro karaoke=True
-        captioner.create_captioned_video_from_phrases(phrases, output_path, karaoke=True)
+        # Chama o método sem karaoke
+        captioner.create_captioned_video_from_phrases(phrases, output_path)
         
         final_video_url = url_for('download_file', filename=output_filename)
         return jsonify({'status': 'success', 'video_url': final_video_url})
@@ -138,4 +150,4 @@ def download_file(filename):
 # --- EXECUÇÃO ---
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(debug=True, host='0.0.0.0', port=8014)

@@ -228,100 +228,24 @@ class ShortCaptioner:
         
         print(f"Total: {len(phrases)} frases")
 
-
-    def create_karaoke_clips(self, phrases):
-        """
-        Cria clipes de karaokê onde cada palavra é destacada individualmente.
-        
-        Args:
-            phrases (list): Lista de frases processadas com dados de palavras
-            
-        Returns:
-            list: Lista de clips de karaokê
-        """
-        karaoke_clips = []
-        
-        for phrase in phrases:
-            # Calcula posição
-            if self.position == ("center", "bottom"):
-                pos = ("center", self.video.h - self.margin_bottom)
-            else:
-                pos = self.position
-            
-            # Para cada palavra na frase, cria um clip destacado
-            for word in phrase['words']:
-                # Texto completo da frase
-                full_text = phrase['text']
-                
-                # Cria clip com a palavra destacada usando cor diferente
-                # Aproximação: destaca toda a frase durante o tempo da palavra
-                text_clip = TextClip(
-                    text=full_text,
-                    font_size=self.font_size,
-                    color="yellow",  # Cor de destaque para karaokê
-                    font=self.font_path,
-                    stroke_color=self.stroke_color,
-                    stroke_width=self.stroke_width,
-                    bg_color=self.bg_color,
-                    method='caption',
-                    size=(self.video.w - 100, None),
-                    text_align='center'
-                )
-                
-                # Define timing da palavra individual
-                word_duration = word['end'] - word['start']
-                if word_duration <= 0:
-                    continue
-                
-                text_clip = text_clip.with_duration(word_duration).with_position(pos)
-                text_clip = text_clip.with_start(word['start'])
-                
-                karaoke_clips.append(text_clip)
-        
-        return karaoke_clips
-    
-    def create_karaoke_video(self, words_data, output_path, words_per_line=3):
-        """
-        Cria vídeo com efeito karaokê a partir dos dados de palavras.
-        
-        Args:
-            words_data (list): Dados das palavras (do JSON)
-            output_path (str): Caminho para salvar o vídeo final
-            words_per_line (int): Número de palavras por linha de legenda
-            
-        Returns:
-            str: Caminho do arquivo de saída
-        """
+    def create_captioned_video_from_phrases(self, phrases, output_path):
+        """Cria vídeo com legendas a partir de frases."""
         if self.video is None:
             self.load_video()
         
-        # Processa as palavras em frases
-        self.caption_processor.words_per_line = words_per_line
-        words_with_phases, phrases = self.caption_processor.process_caption_data(words_data)
+        print(f"Renderizando a partir de {len(phrases)} frases...")
         
-        print(f"Processadas {len(phrases)} frases para karaokê")
+        caption_clips = self.create_caption_clips(phrases)
         
-        # Cria clips de karaokê
-        karaoke_clips = self.create_karaoke_clips(phrases)
+        final_video = CompositeVideoClip([self.video] + caption_clips, size=self.video.size)
         
-        # Compõe o vídeo final
-        all_clips = [self.video] + karaoke_clips
-        final_video = CompositeVideoClip(all_clips)
-        
-        # Renderiza o vídeo
-        print(f"Renderizando vídeo com efeito karaokê...")
+        print(f"Renderizando vídeo final...")
         final_video.write_videofile(
-            output_path,
-            codec="libx264",
-            fps=self.video.fps,
-            audio_codec="aac",
-            logger="bar"
+            output_path, codec="libx264", fps=self.video.fps, audio_codec="aac", logger="bar"
         )
         
-        # Limpa recursos
         final_video.close()
-        
-        print(f"✅ Vídeo karaokê salvo: {output_path}")
+        print(f"✅ Vídeo com legendas salvo: {output_path}")
         return output_path
 
 
