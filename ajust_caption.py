@@ -116,8 +116,6 @@ class CaptionProcessor:
             end_time = words_in_phase[-1]['end']
             
             # Calcula confiança média
-            confidences = [word['confidence'] for word in words_in_phase]
-            avg_confidence = sum(confidences) / len(confidences)
             
             # Cria o dicionário da frase
             phrase_data = {
@@ -126,7 +124,6 @@ class CaptionProcessor:
                 'start': start_time,
                 'end': end_time,
                 'duration': round(end_time - start_time, 2),
-                'confidence': round(avg_confidence, 4),
                 'word_count': len(words_in_phase),
                 'words': words_in_phase  # Mantém as palavras originais para referência
             }
