@@ -1,0 +1,49 @@
+{
+    "cortes_virais": [
+        {
+            "id": 1,
+            "timestamp_inicio": "00:01:17.480",
+            "timestamp_fim": "00:01:52.980",
+            "duracao_minutos_segundos": "00:35",
+            "titulo_sugestivo": "GPT-5 É UMA DECEPÇÃO: Por que troquei para o Gemini?",
+            "texto_thumb": "ADEUS, GPT-5!",
+            "descricao_para_postagem": "O lançamento do GPT-5 foi uma frustração para muitos, inclusive para mim! Testei exaustivamente e não entregou. Descubra por que abandonei o modelo e estou usando o Gemini, que está dominando os benchmarks. Você teve a mesma experiência? Compartilhe nos comentários!\n\n#GPT5 #ChatGPT #Gemini #InteligenciaArtificial #IA #Tecnologia #OpenAI #GoogleAI #DecepçãoAI",
+            "justificativa_interna": "Captura a declaração forte e emocional sobre a decepção com o GPT-5 e a transição para o Gemini. Usa um gancho de declaração polêmica e promessa de insight (o porquê da troca). Segue a diretriz de Promessa de Valor Imediato e Declaração Contraintuitiva.",
+            "tipo_de_gancho": "Declaração Polêmica / Insight Chave",
+            "clima": "Desapontamento, Revelação",
+            "expressao_facial": "Desconfiado, Surpreso",
+            "texto_gerar_thumbnail": "Pessoa com expressão de desapontamento e surpresa, olhando para duas telas de computador, uma com um logo 'GPT-5' riscado e outra com um logo 'Gemini' brilhante. Texto 'ADEUS, GPT-5!' em destaque.",
+            "index": 0
+        },
+        {
+            "id": 2,
+            "timestamp_inicio": "00:04:31.460",
+            "timestamp_fim": "00:05:15.420",
+            "duracao_minutos_segundos": "00:43",
+            "titulo_sugestivo": "O SEGREDO do DOMÍNIO do Gemini: Como o Google Venceu a OpenAI!",
+            "texto_thumb": "GOOGLE REINOU!",
+            "descricao_para_postagem": "Quer saber por que o Gemini está deixando a concorrência para trás? O Google investiu pesado em engenharia de IA e o resultado está aqui! Ferramentas como Viotree e Nano Banana são prova do poder do Gemini. Descubra os detalhes nesse corte e me diga: você já testou o Gemini? O que achou?\n\n#GoogleAI #Gemini #Viotree #NanoBanana #DominioIA #InteligenciaArtificial #TechGuerra #OpenAIvsGoogle",
+            "justificativa_interna": "Destaca o ponto principal da superioridade do Gemini devido ao investimento em engenharia e ferramentas específicas, gerando um 'Aha!' momento. O título usa um gancho de 'segredo' e 'como fazer/vencer'. Segue as diretrizes de Combine Curiosidade com Clareza e Prometa Valor Imediato.",
+            "tipo_de_gancho": "Insight Chave / Declarações Impactantes",
+            "clima": "Triunfo, Explicação",
+            "expressao_facial": "Sorriso, Confiança",
+            "texto_gerar_thumbnail": "Pessoa com expressão de confiança e um sorriso no rosto, apontando para um gráfico de barras onde 'Google' está muito acima de 'OpenAI'. Fundo com elementos de engenharia e códigos. Texto 'GOOGLE REINOU!' em destaque.",
+            "index": 1
+        },
+        {
+            "id": 3,
+            "timestamp_inicio": "00:05:45.840",
+            "timestamp_fim": "00:06:17.320",
+            "duracao_minutos_segundos": "00:31",
+            "titulo_sugestivo": "Por Que Você DEVE Torcer Pela BRIGA das IAs (E Pagar MENOS!)",
+            "texto_thumb": "ELES BRIGAM? VOCÊ GANHA!",
+            "descricao_para_postagem": "Esqueça a lealdade a uma marca de IA! Como cliente, sua maior vantagem é torcer para que as gigantes como Google e OpenAI briguem entre si. Descubra por que essa competição acirrada significa melhores produtos e preços mais baixos para VOCÊ. Qual sua opinião sobre a 'guerra das IAs'? Comente!\n\n#GuerraDasIAs #CompeticaoTech #MercadoIA #ConsumidorInteligente #DicasTech #Economia #IA #InteligenciaArtificial",
+            "justificativa_interna": "Foca no benefício direto para o espectador ao incentivar a concorrência entre as empresas de IA. Usa um gancho de conselho prático e declaração contraintuitiva ('deve torcer pela briga'). O título emprega o formato 'Por que...' e promete valor imediato (pagar menos). Segue as diretrizes de Gere Apelo Emocional/Pessoal.",
+            "tipo_de_gancho": "Conselho Prático / Declaração Contraintuitiva",
+            "clima": "Reflexivo, Estratégico, Engajamento",
+            "expressao_facial": "Pensativo, Semicerrado, Convicto",
+            "texto_gerar_thumbnail": "Pessoa com expressão pensativa e convicta, olhando para dois logos de IA (OpenAI e Google) se 'enfrentando' no fundo. Um cifrão '🤑' ou um ícone de desconto paira sobre a cena. Texto 'ELES BRIGAM? VOCÊ GANHA!' em destaque.",
+            "index": 2
+        }
+    ]
+}

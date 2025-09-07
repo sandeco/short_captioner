@@ -1,0 +1,60 @@
+{
+    "cortes_virais": [
+        {
+            "id": 1,
+            "timestamp_inicio": "00:00:12.920",
+            "timestamp_fim": "00:00:43.780",
+            "duracao_minutos_segundos": "00:30",
+            "titulo_sugestivo": "Seu GPT-5 Está Pior que o ChatGPT Antigo? Entenda o Porquê!",
+            "texto_thumb": "GPT-5 DECEPCIONA?",
+            "descricao_para_postagem": "Você notou que o Copilot com GPT-5 está entregando resultados mais fracos que o bom e velho ChatGPT? Não é impressão sua! Muita gente, inclusive eu, tem enfrentado essa frustração. Descubra por que a nova versão pode estar te decepcionando e como o Gemini está se mostrando uma alternativa surpreendente. #GPT5 #ChatGPT #Copilot #InteligenciaArtificial #GeminiAI #IA #Tech",
+            "justificativa_interna": "O trecho aborda uma frustração comum de usuários com o GPT-5, gerando identificação e curiosidade sobre a queda de performance e a alternativa. O título usa uma pergunta direta e promessa de explicação. Gancho: Insight Chave/Problema-Solução.",
+            "tipo_de_gancho": "Problema-Solução / Declaração Impactante",
+            "clima": "Dúvida/Frustração",
+            "texto_gerar_thumbnail": "Pessoa com expressão de dúvida ou frustração olhando para tela de computador com ícones do GPT-5 e ChatGPT, com um ponto de interrogação gigante.",
+            "index": 0
+        },
+        {
+            "id": 2,
+            "timestamp_inicio": "00:01:20.920",
+            "timestamp_fim": "00:01:52.980",
+            "duracao_minutos_segundos": "00:32",
+            "titulo_sugestivo": "GPT-5: A DECEPÇÃO QUE NINGUÉM ESPERAVA? Google está DOMINANDO!",
+            "texto_thumb": "OPENAI FRACASSA?",
+            "descricao_para_postagem": "A tão esperada versão GPT-5 está sendo uma grande decepção para muitos! Depois de usar amplamente a OpenAI, o especialista revela sua frustração e explica por que o Google, com o Gemini, está conquistando o mercado de IAs. Prepare-se para ver os benchmarks que provam a virada! #GPT5 #OpenAI #ChatGPT #GoogleGemini #InteligenciaArtificial #IA #Tecnologia #ConcorrênciaIA",
+            "justificativa_interna": "O trecho contém declarações fortes sobre a decepção com o GPT-5 e a ascensão do Google/Gemini, prometendo dados (benchmarks). O título usa pergunta e afirmação contundente. Gancho: Declaração Impactante/Controversa e Ganchos e Cliffhangers (promete benchmarks).",
+            "tipo_de_gancho": "Declaração Impactante / Ganchos e Cliffhangers",
+            "clima": "Chocante/Revelador",
+            "texto_gerar_thumbnail": "Uma balança digital com o logo da OpenAI em um lado pesando para baixo e o logo do Google/Gemini no outro lado subindo. A pessoa do vídeo apontando para a balança com expressão surpresa.",
+            "index": 1
+        },
+        {
+            "id": 3,
+            "timestamp_inicio": "00:02:04.520",
+            "timestamp_fim": "00:02:47.060",
+            "duracao_minutos_segundos": "00:42",
+            "titulo_sugestivo": "GERAÇÃO DE IMAGENS: Onde o GOOGLE MASSACRA a OpenAI (e como o 4O antigo era melhor!)",
+            "texto_thumb": "GOOGLE ESMAGA!",
+            "descricao_para_postagem": "Você acha que a OpenAI ainda domina a geração de imagens com IA? Pense de novo! Neste corte chocante, mostro como o Google Gemini está simplesmente *monstruoso* nesse quesito, superando até mesmo o aclamado 4O antigo da OpenAI. O que aconteceu com o 4O 5? Uma decepção total! Veja a análise completa! #GeracaoDeImagens #GoogleGemini #OpenAI #IA #InteligenciaArtificial #DicasDeIA #4O #Tecnologia",
+            "justificativa_interna": "O trecho destaca um ponto específico de superioridade do Gemini (geração de imagens) e faz uma comparação direta e impactante com o 4O antigo e o 4O 5. O título usa termos fortes ('massacra', 'esmagar') e curiosidade sobre a regressão da OpenAI. Gancho: Declaração Impactante/Revelação Surpreendente.",
+            "tipo_de_gancho": "Declaração Impactante / Insights Chave",
+            "clima": "Surpreendente/Confrontador",
+            "texto_gerar_thumbnail": "Dois computadores lado a lado, um mostrando uma imagem incrível gerada pelo Gemini e outro uma imagem de baixa qualidade ou falha gerada pela OpenAI. Uma pessoa com expressão de espanto.",
+            "index": 2
+        },
+        {
+            "id": 4,
+            "timestamp_inicio": "00:05:26.120",
+            "timestamp_fim": "00:06:16.320",
+            "duracao_minutos_segundos": "00:50",
+            "titulo_sugestivo": "NÃO DEFENDAS NENHUMA IA! Por que a GUERRA entre Google e OpenAI SALVA SEU BOLSO!",
+            "texto_thumb": "BRIGA DE GIGANTES!",
+            "descricao_para_postagem": "Pare de escolher lados! A verdadeira vantagem da disputa entre gigantes como Google e OpenAI está no seu bolso! O especialista revela por que essa 'guerra' de IAs é o melhor cenário para os usuários, com produtos melhores e preços mais baixos. Descubra como você se beneficia dessa competição acirrada. #GuerraDaIA #Concorrencia #InteligenciaArtificial #OpenAI #Google #Economia #Tecnologia #AI",
+            "justificativa_interna": "O trecho apresenta um insight valioso para o público: a competição entre IAs é benéfica para o consumidor. O título é provocativo e promete um benefício direto ('salva seu bolso'). A linguagem é engajadora ('que o pau quebre'). Gancho: Insights Chave/Conselho Prático e Declaração Impactante.",
+            "tipo_de_gancho": "Insights Chave / Conselho Prático",
+            "clima": "Impactante/Inspirador",
+            "texto_gerar_thumbnail": "Dois robôs gigantes (representando Google e OpenAI) se confrontando, com o logo do dólar ou cifrão entre eles. Uma pessoa sorrindo, observando de forma vantajosa.",
+            "index": 3
+        }
+    ]
+}

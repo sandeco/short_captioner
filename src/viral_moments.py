@@ -189,6 +189,7 @@ Cada item na lista deve ser um objeto com as seguintes chaves:
 -   `justificativa_interna`: Explicação da escolha
 -   `tipo_de_gancho`: Tipo de gancho usado
 -   `clima`: Um clima para a thumbnail (tenso, alegre, duvida.. etc)
+-   `expressao_facial`: Expressão facial para a thumbnail (alegria, tristeza, raiva, desconfiado, gargalhando, sorrindo)
 -   `texto_gerar_thumbnail`: Texto para gerar thumbnail, descreva a cena para chamar atenção
 
 #Importante:

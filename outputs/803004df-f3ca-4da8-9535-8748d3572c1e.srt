@@ -1,0 +1,659 @@
+1
+0:00:00 --> 0:00:03,240000
+Na empresa que eu trabalho, tem o Copilot liberado com o GPT-5,
+
+2
+0:00:03,500000 --> 0:00:06,940000
+mas acho ela com resultados mais fracos que no próprio chat GPT.
+
+3
+0:00:07,280000 --> 0:00:10,540000
+O mesmo prompt, o resultado é no Copilot ruim.
+
+4
+0:00:10,760000 --> 0:00:11,520000
+Saberia o porquê?
+
+5
+0:00:12,920000 --> 0:00:13,940000
+GPT-5.
+
+6
+0:00:14,620000 --> 0:00:18,960000
+A GPT-5 está muito ruim.
+
+7
+0:00:19,040000 --> 0:00:24,320000
+Eu fiz alguns testes, testando muito qual modelo, o prompt.
+
+8
+0:00:25,560000 --> 0:00:29,380000
+Muitas vezes eu não consegui o resultado que eu tinha no chat GPT,
+
+9
+0:00:30 --> 0:00:33,060000
+via API, usando o mesmo prompt, usando o mesmo modelo.
+
+10
+0:00:33,760000 --> 0:00:38,280000
+Parecia que às vezes vinha muito simples, ou cortado, não sei.
+
+11
+0:00:40 --> 0:00:43,780000
+Até quando eu comecei a usar mais o Gemini, eu parei de ter esse problema.
+
+12
+0:00:44,340000 --> 0:00:49,920000
+Mas com a API do chat GPT, da API, eu viro e mexo, eu estava tendo essa situação.
+
+13
+0:00:50,100000 --> 0:00:50,980000
+E eu testava.
+
+14
+0:00:51,420000 --> 0:00:54,200000
+E às vezes era coisa bem simples que eu quis testar só para ver.
+
+15
+0:00:54,440000 --> 0:00:59,860000
+E o resultado era um pouco diferente, que via no site deles ali, usando o normal.
+
+16
+0:01:00 --> 0:01:00,960000
+E do que vinha na API.
+
+17
+0:01:01,060000 --> 0:01:03,720000
+Não sei se você já teve essa experiência em algum momento.
+
+18
+0:01:04,240000 --> 0:01:09,600000
+Olha, eu não usei o GPT-5 via API.
+
+19
+0:01:09,860000 --> 0:01:10,120000
+Beleza?
+
+20
+0:01:10,780000 --> 0:01:11,500000
+Em nenhum momento.
+
+21
+0:01:12,220000 --> 0:01:13,720000
+Desde que ele foi lançado.
+
+22
+0:01:13,900000 --> 0:01:16,960000
+Eu não tenho usado ele no dia a dia, para te falar a verdade.
+
+23
+0:01:17,480000 --> 0:01:17,940000
+Sabe?
+
+24
+0:01:18,260000 --> 0:01:19,780000
+Não tenho usado o GPT-5.
+
+25
+0:01:20,920000 --> 0:01:22,760000
+Realmente foi uma decepção muito forte.
+
+26
+0:01:22,760000 --> 0:01:23,900000
+Para todo mundo, né?
+
+27
+0:01:24,180000 --> 0:01:25,500000
+O GPT-5 estava esperando.
+
+28
+0:01:28,640000 --> 0:01:29,260000
+Veja bem.
+
+29
+0:01:29,700000 --> 0:01:33,620000
+Eu sou um cara que usei amplamente a OpenNight.
+
+30
+0:01:33,720000 --> 0:01:35,660000
+Então, eu posso criticar tranquilamente.
+
+31
+0:01:36,160000 --> 0:01:38,100000
+Porque eu já bati no Google também.
+
+32
+0:01:38,220000 --> 0:01:39,860000
+Adei porrada no Google lá no início.
+
+33
+0:01:40,700000 --> 0:01:44,160000
+Mas hoje em dia, hoje em dia, eu só tenho usado o Gemini.
+
+34
+0:01:45,640000 --> 0:01:49,160000
+E eu vou fazer um vídeo mostrando, assim.
+
+35
+0:01:49,340000 --> 0:01:51,160000
+O Google está dominando.
+
+36
+0:01:51,320000 --> 0:01:52,240000
+É o nome do vídeo.
+
+37
+0:01:52,320000 --> 0:01:52,980000
+Google dominando.
+
+38
+0:01:53,560000 --> 0:01:55,240000
+Vou mostrar para vocês.
+
+39
+0:01:56,600000 --> 0:01:59,560000
+São nove ou são dez benchmarks.
+
+40
+0:02:00,020000 --> 0:02:01,960000
+E o Google está dominando em cinco.
+
+41
+0:02:02,260000 --> 0:02:02,780000
+Seis.
+
+42
+0:02:04,520000 --> 0:02:07,440000
+Primeiro benchmark, assim, que é mais crítico mesmo, assim.
+
+43
+0:02:07,460000 --> 0:02:08,340000
+Que está demandando muito.
+
+44
+0:02:08,560000 --> 0:02:09,940000
+É a questão de geração de imagem.
+
+45
+0:02:11,040000 --> 0:02:14,740000
+Geração de imagem do Google, hoje o Nando Banana, pelo amor de Deus.
+
+46
+0:02:14,820000 --> 0:02:15,260000
+Você está entendendo?
+
+47
+0:02:15,320000 --> 0:02:15,940000
+É um negócio monstruoso.
+
+48
+0:02:17,600000 --> 0:02:19,300000
+Agora, por incrível que pareça.
+
+49
+0:02:19,800000 --> 0:02:20,620000
+Por incrível que pareça.
+
+50
+0:02:20,740000 --> 0:02:22,020000
+O Gemini tinha um excelente...
+
+51
+0:02:22,020000 --> 0:02:23,980000
+O OpenNight tinha um excelente modelo na mão.
+
+52
+0:02:24,280000 --> 0:02:25,300000
+Que era o 4O.
+
+53
+0:02:25,980000 --> 0:02:27,800000
+O 4O era um baita do modelo, cara.
+
+54
+0:02:28,620000 --> 0:02:31,480000
+Eu hoje fiz um levantamento com a galera.
+
+55
+0:02:31,560000 --> 0:02:33,300000
+Porque eu estava tentando gerar uns dados sintéticos.
+
+56
+0:02:34,220000 --> 0:02:36,180000
+Com imagens térmicas de drone.
+
+57
+0:02:36,520000 --> 0:02:36,780000
+Beleza?
+
+58
+0:02:37,280000 --> 0:02:39,820000
+O Gemini, o Nando Banana não entregou o que eu queria.
+
+59
+0:02:39,940000 --> 0:02:41,820000
+Mas o 4O antigo entregou.
+
+60
+0:02:42,120000 --> 0:02:44,540000
+O 4O 5, esquece.
+
+61
+0:02:44,620000 --> 0:02:45,620000
+Foi horrível, sabe?
+
+62
+0:02:45,860000 --> 0:02:47,060000
+A entrega dele.
+
+63
+0:02:47,780000 --> 0:02:48,160000
+Enfim.
+
+64
+0:02:48,720000 --> 0:02:50,780000
+O GPT-5 está muito ruim.
+
+65
+0:02:51,360000 --> 0:02:52,180000
+Eu não...
+
+66
+0:02:52,180000 --> 0:02:53,420000
+O chat GPT, né?
+
+67
+0:02:53,560000 --> 0:02:56,580000
+Porque eu não usAInda ele via API.
+
+68
+0:02:56,900000 --> 0:02:58,320000
+Os meninos têm falado...
+
+69
+0:02:58,320000 --> 0:02:59,580000
+Os Gemini Boys...
+
+70
+0:02:59,580000 --> 0:02:59,940000
+Que o...
+
+71
+0:03:00,840000 --> 0:03:02,060000
+Que o...
+
+72
+0:03:02,060000 --> 0:03:03,380000
+O GPT-5 está de boa.
+
+73
+0:03:03,700000 --> 0:03:03,840000
+Sabe?
+
+74
+0:03:03,840000 --> 0:03:04,980000
+Na programação ele está muito bom.
+
+75
+0:03:05,440000 --> 0:03:06,620000
+Não testAInda.
+
+76
+0:03:07,020000 --> 0:03:07,320000
+Certo?
+
+77
+0:03:07,380000 --> 0:03:08,220000
+Na hora de programação.
+
+78
+0:03:08,220000 --> 0:03:08,300000
+Não.
+
+79
+0:03:09,200000 --> 0:03:09,700000
+Mas...
+
+80
+0:03:10,320000 --> 0:03:11,340000
+Mas, cara...
+
+81
+0:03:11,340000 --> 0:03:13,300000
+No chat GPT...
+
+82
+0:03:13,840000 --> 0:03:15,080000
+Está uma tristeza.
+
+83
+0:03:15,300000 --> 0:03:16,680000
+Assim, não tenho como usar, cara.
+
+84
+0:03:16,820000 --> 0:03:17,580000
+Sinceramente, não tem.
+
+85
+0:03:17,660000 --> 0:03:20,440000
+Eu prefiro usar, voltar para o 4O e usar.
+
+86
+0:03:20,840000 --> 0:03:21,520000
+Então, assim...
+
+87
+0:03:21,520000 --> 0:03:26,500000
+Veja, eu sou um cara que pago o chat GPT há muito tempo.
+
+88
+0:03:26,500000 --> 0:03:30,980000
+Como eu já dei muita grana para eles, eu acho que eu tenho um pouco de direito de reclamar.
+
+89
+0:03:31,120000 --> 0:03:31,280000
+Não tem?
+
+90
+0:03:32 --> 0:03:33,160000
+E também, assim...
+
+91
+0:03:33,700000 --> 0:03:36,560000
+Eu não dei só grana no sentido de, assim...
+
+92
+0:03:37,500000 --> 0:03:39,480000
+Deu assinar e usar API, tá ligado?
+
+93
+0:03:39,640000 --> 0:03:44,600000
+Assim, eu também recomendei muitas pessoas a usarem o GPT-4...
+
+94
+0:03:44,600000 --> 0:03:45,840000
+Eu acabei de dizer, 4Mini, né?
+
+95
+0:03:47,040000 --> 0:03:47,400000
+Enfim...
+
+96
+0:03:47,400000 --> 0:03:48,840000
+Muitos dos meus alunos usaram.
+
+97
+0:03:49,060000 --> 0:03:50,140000
+Então, eu tenho o maior...
+
+98
+0:03:50,140000 --> 0:03:51,200000
+Porque teve gente que falou assim...
+
+99
+0:03:51,200000 --> 0:03:52,340000
+Você não tem direito de meter...
+
+100
+0:03:52,340000 --> 0:03:53,480000
+Cara, eu sou um das pessoas do mundo.
+
+101
+0:03:53,480000 --> 0:03:55,820000
+Talvez que você tenha o mais direito de bater na OpenAI, sou eu.
+
+102
+0:03:56,740000 --> 0:03:57,260000
+Certo?
+
+103
+0:03:57,820000 --> 0:04:02,440000
+Porque, além de fazer todo o processo de vídeos e tudo mais, né?
+
+104
+0:04:02,680000 --> 0:04:05,840000
+De ensinar como usar, tudo via chat GPT e tudo mais.
+
+105
+0:04:06,060000 --> 0:04:09,380000
+Fiz livros, incentivei meus alunos a usarem API e tudo mais.
+
+106
+0:04:09,820000 --> 0:04:12
+E, além disso, eu também usei.
+
+107
+0:04:12,080000 --> 0:04:12,520000
+Então, assim...
+
+108
+0:04:12,520000 --> 0:04:15,260000
+Eu tenho e tenho muito direito de bater na OpenAI.
+
+109
+0:04:15,560000 --> 0:04:20,800000
+Sinceramente, esse modelo da OpenAI GPT-5 é uma porcaria.
+
+110
+0:04:21,480000 --> 0:04:22
+Certo?
+
+111
+0:04:22 --> 0:04:23,980000
+É ruim pra caramba.
+
+112
+0:04:24,580000 --> 0:04:25,760000
+No chat GPT.
+
+113
+0:04:26,080000 --> 0:04:28,200000
+Não posso dizer na API porque eu não estou usando.
+
+114
+0:04:28,500000 --> 0:04:29,160000
+Estou usando o quê?
+
+115
+0:04:29,340000 --> 0:04:29,940000
+Estou usando o Gemini.
+
+116
+0:04:31,460000 --> 0:04:35,940000
+Porque o Gemini, sinceramente, está dominando o mercado.
+
+117
+0:04:36,540000 --> 0:04:38,020000
+O Google está se mostrando.
+
+118
+0:04:38,220000 --> 0:04:39,280000
+Só que o Google aconteceu.
+
+119
+0:04:39,840000 --> 0:04:41,420000
+O Google fez serviço de casa, né?
+
+120
+0:04:42,060000 --> 0:04:45,700000
+O Google tem grana, tem rádio e tudo mais.
+
+121
+0:04:45,940000 --> 0:04:48,140000
+Mas o Google foi atrás da engenharia, tá?
+
+122
+0:04:48,140000 --> 0:04:57,980000
+É perceptível que os caras foram atrás de melhorar o modelo deles em termos de engenharia mesmo, de inteligência artificial, entendeu?
+
+123
+0:04:58,400000 --> 0:05:00,300000
+Conhecimento de engenharia, certo?
+
+124
+0:05:00,580000 --> 0:05:01,840000
+Por isso que eles melhoraram.
+
+125
+0:05:02,520000 --> 0:05:03,940000
+Você vê o Viotree, cara?
+
+126
+0:05:03,940000 --> 0:05:06,120000
+Pelo amor de Deus, é uma coisa de louco, mano.
+
+127
+0:05:06,760000 --> 0:05:07,520000
+É imoral.
+
+128
+0:05:07,540000 --> 0:05:09,560000
+Não tem ninguém que bate hoje o Viotree.
+
+129
+0:05:10,140000 --> 0:05:11,660000
+É muito massa, sabe?
+
+130
+0:05:11,880000 --> 0:05:14,240000
+O Nano Banana também muito bom.
+
+131
+0:05:14,620000 --> 0:05:15,420000
+Muito bom.
+
+132
+0:05:15,880000 --> 0:05:18,660000
+O Gemini 2.5 Pro, certo?
+
+133
+0:05:19,320000 --> 0:05:22,300000
+No uso do dia a dia, no Gemini mesmo aqui.
+
+134
+0:05:22,840000 --> 0:05:23,680000
+Muito bom.
+
+135
+0:05:24,200000 --> 0:05:25,720000
+Resultados muito bons, sabe?
+
+136
+0:05:26,120000 --> 0:05:29,080000
+Eu não assinava o Gemini.
+
+137
+0:05:29,320000 --> 0:05:31,520000
+Eu só assinava Open Night, certo?
+
+138
+0:05:32 --> 0:05:34,840000
+Aí com a MCP eu voltei para a Anthropica.
+
+139
+0:05:36,040000 --> 0:05:36,520000
+Certo?
+
+140
+0:05:36,980000 --> 0:05:41,700000
+Aí depois com o Gemini, os Gemini Boys me convenceram que realmente o Gemini está muito bom.
+
+141
+0:05:41,820000 --> 0:05:43,540000
+E eu fiz uns testes e realmente estava muito bom.
+
+142
+0:05:44,480000 --> 0:05:44,960000
+Paciência.
+
+143
+0:05:45,120000 --> 0:05:45,720000
+A vida muda.
+
+144
+0:05:45,840000 --> 0:05:46,700000
+Eu sou um cliente, certo?
+
+145
+0:05:46,700000 --> 0:05:50,940000
+Eu falei sempre lá atrás, eu falei, eu estou torcendo é para briga.
+
+146
+0:05:51,020000 --> 0:05:52,040000
+Que o pau quebre, entendeu?
+
+147
+0:05:52,220000 --> 0:05:53,780000
+Eles têm que brigar mesmo.
+
+148
+0:05:54,460000 --> 0:05:58,800000
+Porque quando eles brigam, não adianta você ficar defendendo um ou outro, não, cara.
+
+149
+0:05:59,060000 --> 0:06:00,480000
+Larga de ser besta, certo?
+
+150
+0:06:01,200000 --> 0:06:03,600000
+Se eles brigarem, é bom para você.
+
+151
+0:06:04,180000 --> 0:06:05,500000
+Você vai pagar menos.
+
+152
+0:06:06,100000 --> 0:06:06,480000
+Deu para entender?
+
+153
+0:06:07,020000 --> 0:06:07,500000
+Espertão.
+
+154
+0:06:08,480000 --> 0:06:09,360000
+É isso.
+
+155
+0:06:09,800000 --> 0:06:10,700000
+Deixa eu bater.
+
+156
+0:06:11,540000 --> 0:06:14,460000
+Porque isso vai no brilho dos caras, entendeu?
+
+157
+0:06:15,140000 --> 0:06:16,320000
+Então isso é muito bom.
+
+158
+0:06:16,700000 --> 0:06:16,740000
+Não é?
+
+159
+0:06:16,800000 --> 0:06:16,840000
+Não é?
+
+160
+0:06:16,840000 --> 0:06:16,900000
+Não é?
+
+161
+0:06:16,900000 --> 0:06:16,960000
+Não é?
+
+162
+0:06:16,960000 --> 0:06:16,980000
+Não é?
+
+163
+0:06:16,980000 --> 0:06:17
+Não é?
+
+164
+0:06:17 --> 0:06:17,280000
+Não é?
+
+165
+0:06:17,280000 --> 0:06:17,320000
+Não é?
